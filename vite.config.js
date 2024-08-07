@@ -3,6 +3,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-    base: '/profile/', // Adjust this to your GitHub Pages repo name if necessary
+    base: '/', // Update this to your repository name
     plugins: [react()],
 });
